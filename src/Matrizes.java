@@ -4,6 +4,7 @@ public class Matrizes {
     public static void main(String[] args) {
         String qualquer;
         String [][] matriz = new String [3][3];
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println(matriz[2][2]);
         System.out.println(matriz[2][1]);
@@ -12,7 +13,7 @@ public class Matrizes {
         for(int i = 0; i <= 2; i++){ //i = linha --- 1 == 0
             for(int j = 0; j <= 2; j++){ // j = coluna --- j == 0
                 //System.out.println(matriz[i][j]);
-                matriz[i][j] = scanner
+                matriz[i][j] = scanner;
             }
 
 
