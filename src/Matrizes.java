@@ -13,7 +13,7 @@ public class Matrizes {
         for(int i = 0; i <= 2; i++){ //i = linha --- 1 == 0
             for(int j = 0; j <= 2; j++){ // j = coluna --- j == 0
                 //System.out.println(matriz[i][j]);
-                matriz[i][j] = scanner;
+
             }
 
 
